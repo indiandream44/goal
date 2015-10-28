@@ -1,6 +1,14 @@
 # goal
 60 Days goals
 
+Day 8:
+
+HOME WORK:
+    - DB: What is normalization?
+    - OS: What is starvation?
+    - DS: What is binary tree?
+    - NW: What TCP protocol?
+    - JV: Difference Vectory and ArrayList?
 
 Day7
 Home Work:
