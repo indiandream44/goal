@@ -1,6 +1,16 @@
 # goal
 60 Days goals
 
+Day 9: 
+Thread
+
+HOME WORK:
+    - DB: What are agreegation funtion?
+    - OS: What is daemon thread?
+    - DS: What is B+ tree?
+    - NW: What UDP protocol?
+    - JV: Wait, Notify, NotifyAll, Sleep
+
 Day 8:
 
 HOME WORK:
