@@ -1,6 +1,15 @@
 # goal
 60 Days goals
 
+Day 10:
+File Handling
+HOME WORK:
+    - DB: What is foreign key?
+    - OS: What is task scheduling?
+    - DS: What is array?
+    - NW: What is IP?
+    - JV: What are the various state of the thread?
+
 Day 9: 
 Thread
 
