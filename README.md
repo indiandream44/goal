@@ -1,33 +1,44 @@
 # goal
 60 Days goals
 
+Day 11:
+http://www.tutorialspoint.com/java/java_generics.htm
+Generics
+
+HOME WORK:
+ - DB: What is indexes?
+  -OS:  What is semaphore?
+  -DS: What is bubble sorting? 
+  -NW: Network topology? 
+  -JV: What is JVM, JRE and JDK?
+
 Day 10:
 File Handling
 HOME WORK:
     - DB: What is foreign key?
     - OS: What is task scheduling?
     - DS: What is array?
-    - NW: What is IP?
+    - NW: What is IP protocol?
     - JV: What are the various state of the thread?
 
 Day 9: 
 Thread
 
 HOME WORK:
-    - DB: What are agreegation funtion?
+    - DB: What are agreegation function?
     - OS: What is daemon thread?
     - DS: What is B+ tree?
     - NW: What UDP protocol?
-    - JV: Wait, Notify, NotifyAll, Sleep
+    - JV: Wait, Notify, NotifyAll, Sleep?
 
 Day 8:
-
+    
 HOME WORK:
     - DB: What is normalization?
     - OS: What is starvation?
     - DS: What is binary tree?
     - NW: What TCP protocol?
-    - JV: Difference Vectory and ArrayList?
+    - JV: Difference Vector and ArrayList?
 
 Day7
 Home Work:
@@ -40,7 +51,7 @@ Home Work:
    - What is deadlock?
    - What is HTTP protocol?
 
-20 Days: Core Java - OOPS, String, Exceptions, Enum, File Handling, Collections, Thread, Generics, T2, T3
+20 Days: Core Java-X - OOPS-X, String-X, Exceptions-X, Enum-X, File Handling-X, Collections-X, Thread-X, Generics, T2, T3
 15 Days: Spring -
 15 Days: MySql/ Hibernate
 5 Days: GIT -
