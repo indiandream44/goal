@@ -31,4 +31,11 @@ public class FileOperations {
 		os.write(content.getBytes());
 		os.close();
 	}
+
+	public void deleteFile(String path) {
+		File file = new File(path);
+		if(file.exists()){
+			file.delete();
+		}
+	}
 }

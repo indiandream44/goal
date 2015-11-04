@@ -1,5 +1,6 @@
 package learning.filehandling;
 
+import java.io.File;
 import java.io.IOException;
 
 import org.junit.Assert;
@@ -39,6 +40,18 @@ public class FileOperationsTest {
 	}
 	
 	// TODO : DELETE a File
+	@Test
+	public void testDeleteAFile() throws IOException{
+		// Test Data
+		String path = "C:\\home\\vfroot\\naveen\\gitrepo\\goal\\temp\\testDeleteAFile.text";
+		String content = "testDeleteAFile : Nitin upadhyay";
+		fileOperations.writeCotentInFile(path, content);
+		// Test operation
+		fileOperations.deleteFile(path);
+		// Test verification
+		File file = new File(path);
+		Assert.assertFalse(file.exists());
+	}
 	// TODO: Append content in a file
 	
 	
