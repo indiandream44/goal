@@ -36,5 +36,20 @@ public class CalculatorTest {
 		//test verification
 		Assert.assertEquals(expecteds, actual);
 	}
+	
+	public void testDivide() {
+		Calculator v =new Calculator();
+		//test data
+		int g=6;
+		int h=2;
+		int expecteds=3;
+		//test operation
+		int actual = v.devide(g, h);
+		//test verification
+		Assert.assertEquals(expecteds, actual);
+	}
+
+	
 
 }
+
