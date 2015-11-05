@@ -1,6 +1,18 @@
 # goal
 60 Days goals
 
+Day 12:
+Generics
+
+install mysql.
+
+HOME WORK:
+ - DB: Define truncate and delet command.
+  -OS: Difference between NTFS and FAT32 file system?
+  -DS:  Which sorting algorithm is considered the fastest?
+  -NW:What is VPN?  
+  -JV: What is auto-boxing?
+
 Day 11:
 http://www.tutorialspoint.com/java/java_generics.htm
 Generics
