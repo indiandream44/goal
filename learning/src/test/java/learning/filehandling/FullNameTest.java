@@ -9,7 +9,7 @@ import org.junit.Test;
 public class FullNameTest {
 
 	@Test
-	public void test() {
+	public void test() 
 		String firstName = "Nitin";
 		String lastName = "Upadhyay";
 		String expectedResult = "Nitin Upadhyay";
