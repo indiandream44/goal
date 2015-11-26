@@ -1,3 +1,4 @@
+drop table vechile;
 create table vechile(
    Vechilename varchar(20) not null,
    Vechilemodel varchar(10),
