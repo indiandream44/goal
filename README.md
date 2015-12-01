@@ -83,3 +83,5 @@ Day Plan:
 1. 10 hours refreshment
 2. 10 hours Grooming
 3. 4 daily activity
+
+Meanings: Integrity, concurrency, Vitality, Ambiguity, Adorable, verdict, Abbreviate, Arbitrary, absured , Beware, inspite of, 
