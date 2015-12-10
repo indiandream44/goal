@@ -34,4 +34,15 @@ public class StudentDaoImpl implements StudentDao {
 		return students;
 	}
 
+    @Override
+    public void delete(int id) {
+        // TODO Auto-generated method stub
+        Session session = sessionFactory.openSession();
+        Transaction tx = session.beginTransaction();
+        Student student = (Student) session.createQuery(" from Student where id= " + id + "").list().get(0);
+        session.delete(student);
+        tx.commit();
+        session.close();
+    }
+
 }

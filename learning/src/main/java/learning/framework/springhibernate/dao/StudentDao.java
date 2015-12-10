@@ -9,4 +9,6 @@ public interface StudentDao {
 	public void save(Student student);
 	
 	public List<Student> list();
+
+    public void delete(int id);
 }
