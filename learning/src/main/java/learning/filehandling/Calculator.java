@@ -18,11 +18,11 @@ public class Calculator {
 	}
 	
 	public int fact(){
-		int n;
-		int result;
+		int n =0;
+		int result =1;
 		for(int i=1; i<=n;i++){
-			result * i;
+			result = result * i;
 		}
-		result;
+		return result;
 	}
 }
