@@ -1,5 +1,8 @@
 package learning.framework.springhibernate.entity;
 
+
+import java.sql.Date;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -21,6 +24,10 @@ public class Student {
 	private String emailid;
 
     private int age;
+
+    private String address;
+
+    private Date addmissiondate;
 
 	public int getId() {
 		return id;
@@ -49,13 +56,31 @@ public class Student {
     public void setAge(int age) {
         this.age = age;
     }
+
 	public void setEmailid(String emailid) {
 		this.emailid = emailid;
 	}
 
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public Date getAddmissionDate() {
+        return addmissiondate;
+    }
+
+    public void setAddmissionDate(Date addmissiondate) {
+        this.addmissiondate = addmissiondate;
+    }
+
 	@Override
 	public String toString() {
-        return "Student [id=" + id + ", name=" + name + ", emailid=" + emailid + " , age= " + age + "";
+        return "Student [id=" + id + ", name=" + name + ", emailid=" + emailid + " , age= " + age + " , address = "
+                + address + "addmissiondate=" + addmissiondate + "  ";
 	}
 	
 }

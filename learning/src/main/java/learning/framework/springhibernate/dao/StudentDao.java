@@ -11,4 +11,7 @@ public interface StudentDao {
 	public List<Student> list();
 
     public void delete(int id);
+
+    void update(Student student);
+
 }
