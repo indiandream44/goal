@@ -30,7 +30,6 @@ public class MailClassForGet {
         	System.out.println(product.getCategory().getName());
         }
         session.close();
-        
 	}
 
 }
