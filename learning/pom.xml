@@ -6,10 +6,10 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Learning</name>
 	<description>Describe java concept</description>
+	<packaging>war</packaging>
 	<properties>
 	<!-- Spring -->
         <spring-framework.version>4.0.3.RELEASE</spring-framework.version>
- 
         <!-- Hibernate / JPA -->
         <!-- <hibernate.version>4.3.5.Final</hibernate.version> -->
         <hibernate.version>4.2.2.Final</hibernate.version>
@@ -17,6 +17,8 @@
         <!-- Logging -->
         <logback.version>1.0.13</logback.version>
         <slf4j.version>1.7.5</slf4j.version>
+        <jstl.version>1.2</jstl.version>
+		<servletapi.version>2.5</servletapi.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -86,8 +88,30 @@
             <artifactId>commons-dbcp</artifactId>
             <version>1.4</version>
         </dependency>
+        <!-- spring mvc -->
+        <dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<version>${spring-framework.version}</version>
+		</dependency>
+		
+		<!-- JSTL -->
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jstl</artifactId>
+			<version>${jstl.version}</version>
+		</dependency>
+
+		<!-- for compile only, your container should have this -->
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>servlet-api</artifactId>
+			<version>${servletapi.version}</version>
+			<scope>provided</scope>
+		</dependency>
 	</dependencies>
 	<build>
+		<finalName>HelloWorld</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
